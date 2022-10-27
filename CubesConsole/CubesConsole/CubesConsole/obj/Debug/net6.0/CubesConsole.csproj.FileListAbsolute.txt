@@ -1,0 +1,15 @@
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.csproj.AssemblyReference.cache
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.GeneratedMSBuildEditorConfig.editorconfig
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.AssemblyInfoInputs.cache
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.AssemblyInfo.cs
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.csproj.CoreCompileInputs.cache
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\CubesConsole.exe
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\CubesConsole.deps.json
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\CubesConsole.runtimeconfig.json
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\CubesConsole.dll
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\ref\CubesConsole.dll
+Y:\CubesConsole\CubesConsole\bin\Debug\net6.0\CubesConsole.pdb
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.dll
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\ref\CubesConsole.dll
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.pdb
+Y:\CubesConsole\CubesConsole\obj\Debug\net6.0\CubesConsole.genruntimeconfig.cache
