@@ -1,24 +1,24 @@
-double balance = 1000; // базовый баланс
-do //начало цикла
+double balance = 1000; 
+do 
 {
-    Console.WriteLine("Ваш баланс равен " + balance + " рублей");  
-    Console.WriteLine("Введите ставку");
-    double bet = Convert.ToDouble(Console.ReadLine()); // ввод переменной кона
-    Console.WriteLine("Выберите число число от 1 до 6 "); 
-    double a = Convert.ToDouble(Console.ReadLine());// Ввыод значения для джекпота
+    Console.WriteLine("Balance is " + balance + );  
+    Console.WriteLine("Write a bet");
+    double bet = Convert.ToDouble(Console.ReadLine()); 
+    Console.WriteLine("Write number from 1 to 6 "); 
+    double a = Convert.ToDouble(Console.ReadLine());// 
     Random rnd = new Random();
-    int value = rnd.Next(1,6); //вычисление числа на первом кубике
-    Console.WriteLine("Выпавшее число: "+value);
+    int value = rnd.Next(1,6); 
+    Console.WriteLine("Number on cube 1: "+value);
     Random r2d = new Random();
-    int value2 = r2d.Next(1, 6); //вычисление числа на первом кубике
-    Console.WriteLine("Выпавшее число: " + value2);
+    int value2 = r2d.Next(1, 6); 
+    Console.WriteLine("Number on cube 2: " + value2);
 
     Console.WriteLine();
     double rand = value;
     double ra2d = value2;
-    if ((a == rand) | (a == ra2d))  // проверка на джекпот
+    if ((a == rand) | (a == ra2d))  
     {
-        Console.WriteLine("Вам выпал джекпот");
+        Console.WriteLine("Congratulations you won");
         balance = balance + (bet*a);
     }
         else
@@ -35,4 +35,4 @@ do //начало цикла
         }
     }
 } while (balance > 0);
-Console.WriteLine("Ну, сорри, не прокнуло :(");
+Console.WriteLine("You lose :(");
