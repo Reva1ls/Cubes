@@ -3,16 +3,16 @@ Console.WriteLine("Balance is " + balance);
 do
 {
 
-    Console.WriteLine("Write a bet");
+    Console.WriteLine("Enter a bet");
     double bet = Convert.ToDouble(Console.ReadLine());
-    Console.WriteLine("Write number from 1 to 6 ");
+    Console.WriteLine("Enter number from 1 to 6 ");
     double a = Convert.ToDouble(Console.ReadLine());// 
     Random rnd = new Random();
     int value = rnd.Next(1, 6);
-    Console.WriteLine("Number on cube 1: " + value);
+    Console.WriteLine("Digit on cube 1: " + value);
     Random r2d = new Random();
     int value2 = r2d.Next(1, 6);
-    Console.WriteLine("Number on cube 2: " + value2);
+    Console.WriteLine("Digit on cube 2: " + value2);
 
     Console.WriteLine();
     double rand = value;
