@@ -1,7 +1,7 @@
 double balance = 1000; 
 do 
 {
-    Console.WriteLine("Balance is " + balance + );  
+    Console.WriteLine("Balance is " + balance);  
     Console.WriteLine("Write a bet");
     double bet = Convert.ToDouble(Console.ReadLine()); 
     Console.WriteLine("Write number from 1 to 6 "); 
